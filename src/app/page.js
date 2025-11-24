@@ -1,7 +1,27 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 
+
+
+
 export default function Home() {
+
+  return  <main className="vh-100 vw-100 d-flex justify-content-center align-items-center">
+            <div className="d-flex w-50">
+              <div>
+                <img src="/assets/logo.png"></img>
+              </div>
+              <div className="ms-4">
+                <h1 className="display-4">ContainTrack UI</h1>
+                <p className="lead">Track and document your container fleet easily from any device, via web or the AppSheet mobile app.</p>
+                <div>
+                  Container Fleet Tracking is a web and mobile application designed to simplify container management and condition reporting. Accessible from any browser or the AppSheet mobile app, it enables quick photo-based reporting with GPS location, helping owners and transporters improve visibility and streamline container operations.
+                </div>
+              </div>
+            </div>
+            
+          </main>
+
   return (
     <div className={styles.page}>
       <main className={styles.main}>
