@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-
+import Link from "next/link";
 
 
 
@@ -17,6 +17,7 @@ export default function Home() {
                 <div>
                   Container Fleet Tracking is a web and mobile application designed to simplify container management and condition reporting. Accessible from any browser or the AppSheet mobile app, it enables quick photo-based reporting with GPS location, helping owners and transporters improve visibility and streamline container operations.
                 </div>
+                <Link href="/login" className="btn btn-primary mt-3">Get Started</Link>
               </div>
             </div>
             
